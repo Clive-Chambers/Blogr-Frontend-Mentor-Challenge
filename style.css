@@ -272,8 +272,9 @@ header .menu > .menu-item > a.sign-up-btn:hover {
 /* Main Content */
 
 main.container {
-  margin-top: 0;
+  margin: 0 auto;
   width: 100%;
+  max-width: 1740px;
   overflow: hidden;
 }
 
@@ -422,6 +423,8 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   padding: 4em 12em 0 2em;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .footer-wrapper .list-heading {
