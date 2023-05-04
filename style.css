@@ -583,11 +583,15 @@ footer {
   }
 
   .infrastructure-text p {
-    margin-left: 0;
+    margin: 0 auto;
   }
 
   .infrastructure-text {
-    margin-top: 12rem;
+    margin-top: 9rem;
+  }
+
+  .infrastructure-text h2 {
+    font-size: 2.5rem;
   }
 
   .laptop-info-content {
@@ -647,6 +651,16 @@ footer {
   .blogr-phones img {
     width: 100%;
   }
+
+  .infrastructure-text {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .infrastructure-text {
+    margin-top: 3rem;
+  }
 }
 
 /* Responsive mobile Media Queries */
@@ -695,6 +709,10 @@ footer {
 
   .blogr-phones {
     top: -12rem;
+  }
+
+  .infrastructure-text {
+    margin-top: 14rem;
   }
 
   .infrastructure-text h2 {
